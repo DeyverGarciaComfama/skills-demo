@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "owner": "Equipo Frontend",
   "description": "Genera componentes React siguiendo los estándares internos y la librería de componentes de Comfama.",
   "tags": ["react", "frontend", "componentes"]

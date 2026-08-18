@@ -15,6 +15,5 @@ Cuando generes o modifiques un componente React para Comfama:
 6. Si el componente maneja estado de formulario, usa el patrón interno de validación (ver skill `libui-component-usage` para el detalle de props de formularios).
 7. Incluye siempre un test mínimo de render y un test de interacción principal (click, submit, etc.).
 8. ejemplo
-9. ejemplo 2
 
 Al terminar, resume en 2-3 líneas qué componente de `@comfama/ui` reutilizaste y por qué, para que el reviewer lo valide rápido.
