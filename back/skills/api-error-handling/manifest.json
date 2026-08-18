@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "owner": "Equipo Backend",
+  "description": "Aplica el patrón estándar de manejo de errores y respuestas HTTP en servicios backend (Java, .NET, Python).",
+  "tags": ["backend", "errores", "api"],
+  "dependsOn": ["resource:error-catalog", "script:error-codes-lint"]
+}

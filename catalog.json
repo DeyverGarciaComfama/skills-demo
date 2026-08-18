@@ -1,0 +1,120 @@
+{
+  "name": "comfama-skills",
+  "description": "Catálogo privado de skills, agentes, scripts y recursos de IA de Comfama. GENERADO AUTOMÁTICAMENTE — no editar a mano, ver tooling/generate-catalog.js.",
+  "owner": {
+    "team": "Plataforma / DevEx",
+    "contact": "devex@comfama.com.co"
+  },
+  "schemaVersion": "3.0",
+  "types": [
+    "skill",
+    "agent",
+    "script",
+    "resource"
+  ],
+  "entries": [
+    {
+      "type": "skill",
+      "name": "api-error-handling",
+      "domain": "back",
+      "path": "back/skills/api-error-handling",
+      "version": "1.0.0",
+      "owner": "Equipo Backend",
+      "description": "Aplica el patrón estándar de manejo de errores y respuestas HTTP en servicios backend (Java, .NET, Python).",
+      "tags": [
+        "backend",
+        "errores",
+        "api"
+      ],
+      "dependsOn": [
+        "resource:error-catalog",
+        "script:error-codes-lint"
+      ]
+    },
+    {
+      "type": "script",
+      "name": "error-codes-lint",
+      "domain": "back",
+      "path": "back/scripts/error-codes-lint",
+      "version": "1.0.0",
+      "owner": "Equipo Backend",
+      "description": "Valida que los códigos de error usados en el código existan en el catálogo interno (shared/resources/error-catalog). Escrito en Python: independiente del lenguaje del CLI.",
+      "tags": [
+        "backend",
+        "lint",
+        "errores"
+      ]
+    },
+    {
+      "type": "skill",
+      "name": "component-a11y-check",
+      "domain": "front",
+      "path": "front/skills/component-a11y-check",
+      "version": "1.0.0",
+      "owner": "Equipo Frontend",
+      "description": "Genera componentes React accesibles y valida con un script propio que las imágenes no queden sin texto alternativo.",
+      "tags": [
+        "react",
+        "frontend",
+        "accesibilidad",
+        "a11y"
+      ]
+    },
+    {
+      "type": "skill",
+      "name": "react-component-pattern",
+      "domain": "front",
+      "path": "front/skills/react-component-pattern",
+      "version": "1.0.2",
+      "owner": "Equipo Frontend",
+      "description": "Genera componentes React siguiendo los estándares internos y la librería de componentes de Comfama.",
+      "tags": [
+        "react",
+        "frontend",
+        "componentes"
+      ]
+    },
+    {
+      "type": "skill",
+      "name": "commit-message-style",
+      "domain": "shared",
+      "path": "shared/skills/commit-message-style",
+      "version": "1.0.0",
+      "owner": "Plataforma / DevEx",
+      "description": "Formato estándar de mensajes de commit, sin importar el dominio (front, back, datos, infraestructura).",
+      "tags": [
+        "git",
+        "utilidad",
+        "transversal"
+      ]
+    },
+    {
+      "type": "agent",
+      "name": "code-reviewer-comfama",
+      "domain": "shared",
+      "path": "shared/agents/code-reviewer-comfama",
+      "version": "1.0.0",
+      "owner": "Plataforma / DevEx",
+      "description": "Subagente especializado en revisar PRs con los estándares internos de Comfama antes de aprobarlos.",
+      "tags": [
+        "revisión",
+        "calidad",
+        "transversal"
+      ]
+    },
+    {
+      "type": "resource",
+      "name": "error-catalog",
+      "domain": "shared",
+      "path": "shared/resources/error-catalog",
+      "version": "1.0.0",
+      "owner": "Arquitectura",
+      "description": "Catálogo canónico de códigos de error compartido por todos los backends.",
+      "tags": [
+        "referencia",
+        "errores",
+        "transversal"
+      ]
+    }
+  ]
+}

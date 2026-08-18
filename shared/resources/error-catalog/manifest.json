@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "owner": "Arquitectura",
+  "description": "Catálogo canónico de códigos de error compartido por todos los backends.",
+  "tags": ["referencia", "errores", "transversal"]
+}

@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "owner": "Plataforma / DevEx",
+  "description": "Formato estándar de mensajes de commit, sin importar el dominio (front, back, datos, infraestructura).",
+  "tags": ["git", "utilidad", "transversal"]
+}

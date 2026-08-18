@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "owner": "Equipo Backend",
+  "description": "Valida que los códigos de error usados en el código existan en el catálogo interno (shared/resources/error-catalog). Escrito en Python: independiente del lenguaje del CLI.",
+  "tags": ["backend", "lint", "errores"]
+}

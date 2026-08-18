@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "owner": "Plataforma / DevEx",
+  "description": "Subagente especializado en revisar PRs con los estándares internos de Comfama antes de aprobarlos.",
+  "tags": ["revisión", "calidad", "transversal"]
+}
