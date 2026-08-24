@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "owner": "Equipo Frontend",
   "description": "Genera componentes React accesibles y valida con un script propio que las imágenes no queden sin texto alternativo.",
   "tags": ["react", "frontend", "accesibilidad", "a11y"]
